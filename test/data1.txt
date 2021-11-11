@@ -1,0 +1,4 @@
+A2 1.0
+A1 true
+ZZ50 "Far out"
+A3 "stringy"

@@ -1,0 +1,5 @@
+Overall, our providers' code was of very high quality. The model was so completely decoupled from the view that I did not even have to use an adaptor to adapt my model to fit their model interface. 
+The way they implemented the controller was very clever and allowed for any model to be used, as long as the information required to fill the spreadsheet was passed in as a Map.
+The only thing I would change about the code is how their design focuses heavily on parsing everything into a string, handling the information as strings, and then parsing them back out to whatever objects they are to be stored as. Ideally, parsing would only happen in loading (from file into worksheet object) and in the view (worksheet object to string). 
+Interactions with our providers were also pleasant, since they were responsive and communicated effectively.
+
