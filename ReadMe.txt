@@ -1,4 +1,4 @@
-Features that work:
+Features:
 
 loading a file (from command line arguments)
 graphical view (cells are displayed correctly in GUI)
